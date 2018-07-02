@@ -11,7 +11,7 @@ class Dog
     @@all << self
   end
 
-  def clear_all
+  def Dog.clear_all
     array.clear if full
   end
 
