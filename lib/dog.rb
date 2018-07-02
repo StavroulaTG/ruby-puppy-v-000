@@ -12,7 +12,7 @@ class Dog
   end
 
   def clear_all
-    array.clear
+    all.clear
   end
 
   def self.all
