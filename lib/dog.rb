@@ -11,7 +11,9 @@ class Dog
     @@all << self
   end
 
-  a.clear
+  def array_clear
+    array.clear if full
+  end
 
   def self.all
     @@all.each do |dog_name|
